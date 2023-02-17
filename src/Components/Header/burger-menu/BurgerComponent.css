@@ -1,0 +1,30 @@
+.contentBurger{
+    /* border: solid white 1px; */
+    width: 2rem;
+    height:2rem;
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+}
+
+.spBurger{
+    width: 2rem;
+    background-color:white;
+    height:0.15rem;
+    transform-origin: 1px;
+    transition:all 1s linear;
+}
+
+.spBurger1{
+}
+.spBurger1{}
+.spBurger1{}
+
+
+@media (min-width:767px){
+    .contentBurger{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.contentHeader{
+    border: solid 2px orange;
+    /*background-color: 'red'; */
+    width: 90%;
+    padding: 0;
+    font-size: 20px;
+    display:flex;
+    justify-content: flex-end; 
+    padding-top: 30px;
+    height: 100%;
+    padding:5%;
+}
+.header{
+    border:solid white;
+    padding:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.nav{
+    border:solid orange;
+    position: absolute;
+    width:100vh;
+}
+.ulNav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    border: solid 2px;
+    top: 0;
+    height: 100%;
+    margin: 0;
+    padding: 5%;
+
+}
+.liNav{
+    padding: 2%;
+    font-weight: 700;
+    color:white;
+}
+.linkNav{
+    text-decoration: none;
+}
