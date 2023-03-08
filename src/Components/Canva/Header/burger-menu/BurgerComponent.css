@@ -7,20 +7,42 @@
     flex-direction: column;
     justify-content: space-between;
     flex-flow: column nowrap;
+    right:1rem;
+    cursor:pointer;
+    position:absolute;
+    display:block
 }
 
 .spBurger{
     width: 2rem;
     background-color:white;
     height:0.15rem;
-    transform-origin: 1px;
     transition:all 1s linear;
+    position:relative;
 }
 
 .spBurger1{
+    top:0
 }
-.spBurger1{}
-.spBurger1{}
+.spBurger2{
+    position:relative;
+
+    top: 50%;
+}
+.spBurger3{
+    bottom: 0%
+}
+
+.rotate-45{
+    transform:rotate(45deg);
+}
+.rotate-minus45{
+    transform:rotate(-45deg);
+
+}
+.display-none{
+    display:none;
+}
 
 
 @media (min-width:767px){

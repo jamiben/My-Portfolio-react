@@ -1,16 +1,17 @@
 import React from "react";
 import './Profile.css';
 
+
 export default function Profil(){
 
 
     
     return(
         <div className="ContentProfile">
-            <canvas id="canvas">
-            </canvas>
-            <h1 className='title' style={{color:'white'}}>Jenny Benzerara</h1>
-            <h2 className='title2' style={{color:'white'}}>Conceptrice, développeur d'applications</h2>
+            <div className="contentTitleProfile">
+                <h1 className='title' style={{color:'white'}}>Jenny Benzerara</h1>
+                <h2 className='title2' style={{color:'white'}}>Conceptrice, développeur d'applications</h2>
+            </div>
             <div className="ContentTextProfile">
                 <p className="TextProfile" style={{color:'white'}}>Diplômée d'un titre de niveau 5 de développeur web et mobile ainsi, qu'une certification OPQAST (Maîtrise de la qualité en projet web niveau : Avancé).
                                             J'ai aujourd'hui l'opportunité de pouvoir monter en compétence de façon considérable grâce à l'école o'clock, après avoir réussi les tests de sélection qui me permettent 

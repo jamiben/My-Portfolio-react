@@ -1,17 +1,19 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-  }
-  
-  .ContentProfile{
-    border: solid 1px red;
+.ContentProfile{
+    /* border: solid 1px red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;    
+    height: 100%;  
+    bottom:0;
+    left:0; 
   }
+
+  .contentTitleProfile{
+    padding: 5%;
+    z-index: 100;
+
+  }
+
   #canvas {
       display: block;
       width: 100%;
@@ -27,6 +29,8 @@ html, body {
 .ContentTextProfile{
     background-color: rgba(245, 255, 47, 0.737);
     clip-path: circle(60% at 5rem 70%);
+    margin:0;
+
 }
 .TextProfile{
     shape-outside: circle(60% at 5rem 70%);
