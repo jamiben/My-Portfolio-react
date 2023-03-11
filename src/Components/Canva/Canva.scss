@@ -1,14 +1,9 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    border: solid 5px red;
-  }
+
 .contentPraticle{
     // border: 3px solid green;
-    
-
+    // background-color: red;
+    margin:0;
+    padding:0;
 }
 #canvas{
     // border: 3px solid orange;
@@ -18,4 +13,22 @@ html, body {
     top: 0;
     right: 0;
     left: 0;
+    height:100%;
+    width:100%;
+    display: block;
+}
+
+.contentChildrenCanva{
+    width:100%;
+    height:100%;
+    position: relative;
+    top:0;
+    bottom:0;
+    display:flex;
+    flex-direction: column;
+    border:3px solid white;
+    position: absolute;
+    top:0;
+    bottom:0;
+    z-index: 100z;
 }

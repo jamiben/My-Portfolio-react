@@ -4,13 +4,13 @@
     display: flex;
     justify-content: space-between;
     width:100%;
-    border: solid 3px purple;
+    // border: solid 3px purple;
     height:100%;
-    z-index: 100;
+    // z-index: 100;
 }
 
 .contentHeader{
-    border: solid 2px orange;
+    // border: solid 2px orange;
     width: 90%;
     padding: 0;
     font-size: 20px;
@@ -26,10 +26,10 @@
     position:absolute;
     right:1rem;
     top:1rem;
-    z-index: 100;
+    // z-index: 100;
 }
 .nav{
-    border:solid orange;
+    // border:solid orange;
     width:100vh;
     display:none;
 }
@@ -41,7 +41,7 @@
     flex-direction: column;
     align-items: center;
     list-style: none;
-    border: solid 2px;
+    // border: solid 2px;
     margin: 0;
     // border:solid red; 
 }

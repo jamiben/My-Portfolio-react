@@ -1,7 +1,7 @@
 .contentBurger{
     /* border: solid white 1px; */
     width: 2rem;
-    height:2rem;
+    height:1.5rem;
     background-color: transparent;
     display:flex;
     flex-direction: column;
@@ -14,23 +14,27 @@
 }
 
 .spBurger{
-    width: 2rem;
     background-color:white;
-    height:0.15rem;
+    height:0.1rem;
     transition:all 1s linear;
     position:relative;
 }
 
 .spBurger1{
-    top:0
+    position:absolute;
+    right:0;
+    top:0;
+    width:50%
 }
 .spBurger2{
-    position:relative;
-
+    position: absolute;
     top: 50%;
+    width: 2rem;
 }
 .spBurger3{
-    bottom: 0%
+    position:absolute;
+    bottom:0;
+    width: 50%;
 }
 
 .rotate-45{

@@ -169,8 +169,10 @@ export default function CanvasComponent() {
   return (
     <div className='contentPraticle'>
       <canvas ref={canvasRef} id="canvas" />
-      <Header />
-      <Profil />
+      <div className="contentChildrenCanva">
+        <Header />
+        <Profil />
+      </div>
     </div>
 
   )

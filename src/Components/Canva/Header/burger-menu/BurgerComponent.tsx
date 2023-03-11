@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 
-import './BurgerComponent.css';
+import './BurgerComponent.scss';
 import HeaderContext from '../../../../Context/Context';
 
 export default function BurgerComponent(){
