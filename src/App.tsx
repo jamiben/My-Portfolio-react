@@ -8,7 +8,7 @@ import Profil from './Components/Canva/Profil/Profil';
 // import Contact from './Components/Contact/Contact'
 import './App.css';
 import Error from './Components/Error/Error';
-import Projects from './Context/Projects/Projects';
+import Projects from './Components/Projects/Projects';
 import ParentNode from './Context/Context';
 
 function App() {
@@ -17,11 +17,11 @@ function App() {
 
 
   return (
-    <MyContext.Provider value={{burgerButtonOpen, setBurgerButtonOpen}}>
-
-      <div className='contentProfile'>
-
+    <div >
         <CanvasComponent />
+
+    <MyContext.Provider value={{burgerButtonOpen, setBurgerButtonOpen}}>
+        <Projects />
         <BrowserRouter>  
           <Routes>
             {/* <Route path="*" element={< Error/>}/> */}
@@ -30,8 +30,8 @@ function App() {
             {/* <Route path="/contact" element={<Contact />}/> */}
           </Routes>
         </BrowserRouter>
-      </div>
     </MyContext.Provider>
+    </div>
 
 
   );
