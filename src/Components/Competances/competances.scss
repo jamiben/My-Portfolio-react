@@ -1,0 +1,21 @@
+.contentCompetences{
+    padding:5%;
+}
+
+.paraCompetences{
+    max-height: 40%;
+    border:solid 1px black;
+    text-align: center;
+}
+.contentCenterItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgCv{
+    background-image: url(../../assets/images/cv.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:100%;
+}
