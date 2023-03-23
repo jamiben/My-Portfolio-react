@@ -1,0 +1,32 @@
+.contentFooter{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    align-items: center;
+    padding:5%;
+}
+.contentCopyRight{
+    color:#FFFFFF;
+}
+.contentLinkFoot{
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    // border: solid 1px #FFFFFF;
+    width:100%;
+}
+.spanFoot{
+    padding: 0% 3% 0% 3%;
+    // border: solid 1px red;
+}
+// .contentLink{
+//     list-style: none;
+//     align-items: center;
+// }
+.linkFoot{
+    // border: solid 1px #FFFFFF;
+    display: inline-block;
+}
+a{
+    color: #FFFFFF;
+}
